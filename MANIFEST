@@ -1,0 +1,14 @@
+Build.PL
+Changes
+INSTALL
+LICENSE
+MANIFEST
+META.json
+Makefile.PL
+README
+lib/Dist/Zilla/Plugin/PrePAN.pm
+t/00-compile.t
+t/author-critic.t
+t/author-pod-spell.t
+t/release-cpan-changes.t
+t/release-pod-coverage.t

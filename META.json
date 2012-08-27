@@ -1,0 +1,61 @@
+{
+   "abstract" : "Automatically set PrePAN author and module URLs",
+   "author" : [
+      "Olaf Alders <olaf@wundercounter.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300010, CPAN::Meta::Converter version 2.120630",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Dist-Zilla-Plugin-PrePAN",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30",
+            "Module::Build" : "0.3601"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Dist::Zilla::Role::MetaProvider" : "0",
+            "Moose" : "0",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "English" : "0",
+            "File::Find" : "0",
+            "File::Temp" : "0",
+            "Test::More" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/oalders/dist-zilla-plugin-prepan/issues"
+      },
+      "homepage" : "https://github.com/oalders/dist-zilla-plugin-prepan",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/oalders/dist-zilla-plugin-prepan.git",
+         "web" : "https://github.com/oalders/dist-zilla-plugin-prepan"
+      },
+      "x_prepan_author" : "http://prepan.org/user/3Yz7PYrBzQ",
+      "x_prepan_module" : "http://prepan.org/module/429En4oFdp"
+   },
+   "version" : "0.01"
+}
+
