@@ -1,11 +1,10 @@
 use strict;
 use warnings;
 
-package Dist::Zilla::Plugin::PrePAN;
-{
-  $Dist::Zilla::Plugin::PrePAN::VERSION = '0.01';
-}
+use 5.006;
 
+package Dist::Zilla::Plugin::PrePAN;
+$Dist::Zilla::Plugin::PrePAN::VERSION = '0.02';
 # ABSTRACT: Automatically set PrePAN author and module URLs
 
 use Moose;
@@ -34,9 +33,11 @@ __PACKAGE__->meta->make_immutable;
 no Moose;
 1;
 
-
 __END__
+
 =pod
+
+=encoding UTF-8
 
 =head1 NAME
 
@@ -44,7 +45,7 @@ Dist::Zilla::Plugin::PrePAN - Automatically set PrePAN author and module URLs
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -93,4 +94,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
